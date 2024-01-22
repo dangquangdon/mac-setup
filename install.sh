@@ -90,6 +90,7 @@ mkdir -p ~/.config
 cp -r config/* ~/.config/
 mv ~/.zshrc ~/.zshrc-old
 cp zshrc ~/.zshrc
+cp wezterm.lua ~/.wezterm.lua
 
 # Start services
 source ~/.zshrc
