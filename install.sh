@@ -83,6 +83,10 @@ brew install gh
 brew install btop
 brew install dooit
 brew install jq
+brew install --cask brave-browser
+brew install --cask firefox
+brew install --cask postman
+brew install --cask visual-studio-code
 
 # Copy config files
 echo "Copying config files..."
