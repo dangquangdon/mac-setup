@@ -39,6 +39,10 @@ brew install neovim
 # Python
 brew install pyenv
 
+# Go
+brew install go
+mkdir -p $HOME/go
+
 # NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
@@ -78,9 +82,11 @@ brew install ripgrep
 brew install gh
 brew install btop
 brew install dooit
+brew install jq
 
 # Copy config files
 echo "Copying config files..."
+mkdir -p ~/.config
 cp -r config/* ~/.config/
 mv ~/.zshrc ~/.zshrc-old
 cp zshrc ~/.zshrc
