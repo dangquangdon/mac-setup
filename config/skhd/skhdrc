@@ -8,6 +8,7 @@ alt - l : yabai -m window --focus east
 # Flip along y-axis and x-axis
 shift + alt - y : yabai -m space --mirror y-axis
 shift + alt - x : yabai -m space --mirror x-axis
+shift + alt - t : yabai -m window --toggle split
 
 
 # Rotate
