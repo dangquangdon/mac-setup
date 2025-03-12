@@ -87,6 +87,8 @@ brew install --cask brave-browser
 brew install --cask firefox
 brew install --cask postman
 brew install --cask visual-studio-code
+brew install bat
+brew install eza
 
 # Copy config files
 echo "Copying config files..."
